@@ -20,7 +20,7 @@ export default function App() {
     <a href="#" className="hover:text-yellow-400 transition">Home</a>
     <a href="#how-it-works" className="hover:text-yellow-400 transition">How It Works</a>
     <a href="#why-it-works" className="hover:text-yellow-400 transition">Why It Works</a>
-    <a href="#newsletter" className="hover:text-yellow-400 transition">Contact</a>
+    <a href="#contact" className="hover:text-yellow-400 transition">Contact</a>
   </div>
 </nav>
 
