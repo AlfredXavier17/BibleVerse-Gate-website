@@ -13,7 +13,7 @@ export default function App() {
             alt="BibleVerse Gate logo"
             className="w-10 h-10 object-contain"
           />
-          <h1 className="text-xl font-bold">BibleVerse Gate</h1>
+          <h1 className="text-l font-bold">BibleVerse Gate</h1>
         </div>
         <div className="space-x-6 text-sm text-gray-300">
           <a href="#">Home</a>
