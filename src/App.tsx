@@ -6,22 +6,24 @@ export default function App() {
   return (
     <div className="min-h-screen bg-black text-white flex flex-col">
       {/* Navbar */}
-      <nav className="flex items-center justify-between px-6 py-4 border-b border-zinc-800">
-        <div className="flex items-center space-x-2">
-          <img
-            src="/icon.png"
-            alt="BibleVerse Gate logo"
-            className="w-10 h-10 object-contain"
-          />
-          <h1 className="text-l font-bold">BibleVerse Gate</h1>
-        </div>
-        <div className="space-x-6 text-sm text-gray-300">
-          <a href="#">Home</a>
-          <a href="#how-it-works">How It Works</a>
-          <a href="#why-it-works">Why It Works</a>
-          <a href="#newsletter">Contact</a>
-        </div>
-      </nav>
+      <nav className="flex flex-wrap items-center justify-between px-6 py-4 border-b border-zinc-800">
+  <div className="flex items-center space-x-2 mb-2 sm:mb-0">
+    <img
+      src="/icon.png"
+      alt="BibleVerse Gate logo"
+      className="w-10 h-10 object-contain"
+    />
+    <h1 className="text-lg sm:text-xl font-bold whitespace-nowrap">BibleVerse Gate</h1>
+  </div>
+
+  <div className="flex flex-wrap justify-center sm:justify-end w-full sm:w-auto space-x-4 text-sm text-gray-300">
+    <a href="#" className="hover:text-yellow-400 transition">Home</a>
+    <a href="#how-it-works" className="hover:text-yellow-400 transition">How It Works</a>
+    <a href="#why-it-works" className="hover:text-yellow-400 transition">Why It Works</a>
+    <a href="#newsletter" className="hover:text-yellow-400 transition">Contact</a>
+  </div>
+</nav>
+
 
       {/* Hero Section */}
       <main className="flex flex-col items-center justify-center flex-grow px-8 py-20 text-center">
